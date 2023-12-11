@@ -4,6 +4,7 @@ import 'package:atvd_quiz/models/questions_model.dart';
 import 'package:atvd_quiz/constants.dart';
 import 'package:atvd_quiz/widgets/question_widget.dart';
 import 'package:atvd_quiz/widgets/option_cards.dart';
+import 'package:atvd_quiz/widgets/result_box.dart';
 
 class QuizAppWidget extends StatefulWidget {
   @override
@@ -34,97 +35,97 @@ class QuizScreenState extends State<QuizAppWidget> {
         'Ponteiros de memória': false,
       },
     ),
-    Question(
-      id: '3',
-      title:
-          'Como é chamado o recurso no Flutter que permite visualizar instantaneamente as mudanças feitas no código?',
-      options: {
-        'QuickView': false,
-        'LiveReload': false,
-        'Hot Reload': true,
-        'FastTrack': false,
-        'SwiftLoad': false
-      },
-    ),
-    Question(
-      id: '4',
-      title: 'Qual comando é usado para instalar dependências no Flutter?',
-      options: {
-        'get install': false,
-        'pub get': false,
-        'flutter add': false,
-        'dependencies install': false,
-        'flutter pub install': true
-      },
-    ),
-    Question(
-      id: '5',
-      title: 'O que é o "State" em Flutter, em relação a widgets?',
-      options: {
-        'Estado emocional do desenvolvedor': false,
-        'Conjunto de dados imutáveis': false,
-        'Propriedades visuais de um widget': false,
-        'Armazenamento local': false,
-        'Estado dinâmico de um widget': true
-      },
-    ),
-    Question(
-      id: '6',
-      title:
-          'Qual é o formato de arquivo usado para definir as dependências do projeto Flutter?',
-      options: {
-        '.json': false,
-        '.yml': true,
-        '.txt': false,
-        '.cfg': false,
-        '.yaml': false
-      },
-    ),
-    Question(
-      id: '7',
-      title: 'O que é o Flutter SDK?',
-      options: {
-        'Software Development Kit específico para Flutter': true,
-        'Sistema de Design para Flutter': false,
-        'Serviço de Delivery para Flutter': false,
-        'Super Dynamic Kit': false,
-        'Script de Desenvolvimento para Kotlin': false
-      },
-    ),
-    Question(
-      id: '8',
-      title:
-          'Como é chamada a estrutura de layout básica no Flutter que organiza os widgets em uma grade?',
-      options: {
-        'Grid Layout': false,
-        'RowColumn Structure': false,
-        'Flexbox': false,
-        'Scaffold': true,
-        'GridLayout': false
-      },
-    ),
-    Question(
-      id: '9',
-      title: 'O que é o Flutter Doctor e para que serve?',
-      options: {
-        'Ferramenta de diagnóstico para saúde do desenvolvedor': true,
-        'Plugin para edição de imagens': false,
-        'Assistente virtual no Flutter': false,
-        'Módulo de aprendizado de máquina': false,
-        'Emulador de dispositivos móveis': false
-      },
-    ),
-    Question(
-      id: '10',
-      title: 'Qual é a função do widget MaterialApp em um aplicativo Flutter?',
-      options: {
-        'Definir o tema do aplicativo': false,
-        'Manipular a navegação entre telas': false,
-        'Criar uma barra de aplicativo padrão': false,
-        'Iniciar o aplicativo': false,
-        'Todas as opções anteriores': true
-      },
-    ),
+    // Question(
+    //   id: '3',
+    //   title:
+    //       'Como é chamado o recurso no Flutter que permite visualizar instantaneamente as mudanças feitas no código?',
+    //   options: {
+    //     'QuickView': false,
+    //     'LiveReload': false,
+    //     'Hot Reload': true,
+    //     'FastTrack': false,
+    //     'SwiftLoad': false
+    //   },
+    // ),
+    // Question(
+    //   id: '4',
+    //   title: 'Qual comando é usado para instalar dependências no Flutter?',
+    //   options: {
+    //     'get install': false,
+    //     'pub get': false,
+    //     'flutter add': false,
+    //     'dependencies install': false,
+    //     'flutter pub install': true
+    //   },
+    // ),
+    // Question(
+    //   id: '5',
+    //   title: 'O que é o "State" em Flutter, em relação a widgets?',
+    //   options: {
+    //     'Estado emocional do desenvolvedor': false,
+    //     'Conjunto de dados imutáveis': false,
+    //     'Propriedades visuais de um widget': false,
+    //     'Armazenamento local': false,
+    //     'Estado dinâmico de um widget': true
+    //   },
+    // ),
+    // Question(
+    //   id: '6',
+    //   title:
+    //       'Qual é o formato de arquivo usado para definir as dependências do projeto Flutter?',
+    //   options: {
+    //     '.json': false,
+    //     '.yml': true,
+    //     '.txt': false,
+    //     '.cfg': false,
+    //     '.yaml': false
+    //   },
+    // ),
+    // Question(
+    //   id: '7',
+    //   title: 'O que é o Flutter SDK?',
+    //   options: {
+    //     'Software Development Kit específico para Flutter': true,
+    //     'Sistema de Design para Flutter': false,
+    //     'Serviço de Delivery para Flutter': false,
+    //     'Super Dynamic Kit': false,
+    //     'Script de Desenvolvimento para Kotlin': false
+    //   },
+    // ),
+    // Question(
+    //   id: '8',
+    //   title:
+    //       'Como é chamada a estrutura de layout básica no Flutter que organiza os widgets em uma grade?',
+    //   options: {
+    //     'Grid Layout': false,
+    //     'RowColumn Structure': false,
+    //     'Flexbox': false,
+    //     'Scaffold': true,
+    //     'GridLayout': false
+    //   },
+    // ),
+    // Question(
+    //   id: '9',
+    //   title: 'O que é o Flutter Doctor e para que serve?',
+    //   options: {
+    //     'Ferramenta de diagnóstico para saúde do desenvolvedor': true,
+    //     'Plugin para edição de imagens': false,
+    //     'Assistente virtual no Flutter': false,
+    //     'Módulo de aprendizado de máquina': false,
+    //     'Emulador de dispositivos móveis': false
+    //   },
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: 'Qual é a função do widget MaterialApp em um aplicativo Flutter?',
+    //   options: {
+    //     'Definir o tema do aplicativo': false,
+    //     'Manipular a navegação entre telas': false,
+    //     'Criar uma barra de aplicativo padrão': false,
+    //     'Iniciar o aplicativo': false,
+    //     'Todas as opções anteriores': true
+    //   },
+    // ),
   ];
 
   bool isPressed = false; // valor booleano para checar se o usuário clicou
@@ -132,10 +133,31 @@ class QuizScreenState extends State<QuizAppWidget> {
   int score = 0; // variavel de pontuação\
   bool isAlreadySelected = false;
 
+  // função para iniciar o jogo novamente
+  void startOver() {
+    setState(() {
+      questionsIndex = 0;
+      score = 0;
+      isPressed = false;
+      isAlreadySelected = false;
+    });
+    Navigator.pop(context);
+  }
+
   // função para mostrar a próxima questão
   void nextQuestion() {
     if (questionsIndex == questions.length - 1) {
-      return;
+      // fim das questões == result_box
+      showDialog(
+          context: context,
+          barrierDismissible:
+              false, // desativa a "dismiss function clicking" fora da caixa
+          builder: (ctx) => ResultBox(
+                result: score, // pontuação total
+                questionLength: questions.length,
+                onPressed:
+                    startOver, // quando pressionado, chamará a função "onPressed" e irá retornar ao inicio
+              ));
     } else {
       if (isPressed) {
         setState(() {
@@ -160,11 +182,11 @@ class QuizScreenState extends State<QuizAppWidget> {
     } else {
       if (value == true) {
         score++;
-        setState(() {
-          isPressed = true;
-          isAlreadySelected = true;
-        });
       }
+      setState(() {
+        isPressed = true;
+        isAlreadySelected = true;
+      });
     }
   }
 
