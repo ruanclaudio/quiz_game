@@ -2,6 +2,7 @@
 
 A simple Quiz app developed in Flutter to test your knowledge!
 
+## Note: Screens are initially in Portuguese (pt-br).
 ## Screenshots 📱
 
 ### Welcome Screen
@@ -42,17 +43,15 @@ A simple Quiz app developed in Flutter to test your knowledge!
    
 2. Navigate to the project directory:
 
-```bash
-  cd nome-do-repositorio
-```
+   ```bash
+   cd nome-do-repositorio
+
 3. Run the app:
 
-```bash
-  flutter run
-```
+   ```bash
+   flutter run
 
 ## License 📄
 This project is licensed under the MIT License.
 
-## Note: Screens are initially in Portuguese (pt-br).
 Made with ❤️ by Ruan Cláudio Damasceno Souza
