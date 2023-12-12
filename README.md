@@ -1,57 +1,58 @@
 # Quiz Flutter App 🚀
 
-Um aplicativo simples de Quiz desenvolvido em Flutter para testar seus conhecimentos!
+A simple Quiz app developed in Flutter to test your knowledge!
 
 ## Screenshots 📱
 
-### Tela Inicial
-![Tela Inicial](screenshots/welcome_screen.png)
+### Welcome Screen
+![Welcome Screen](screenshots/welcome_screen.png)
 
-### Tela de Questões
-![Tela de Questões](screenshots/quiz_screen.png)
+### Quiz Screen
+![Quiz Screen](screenshots/quiz_screen.png)
 
-### Tela de Resultados
-![Tela de Resultado](screenshots/great_score.png)
-![Tela de Resultado](screenshots/half_score.png)
-![Tela de Resultado](screenshots/bad_score.png)
+### Results Screen
+![Results Screen](screenshots/great_score.png)
+![Results Screen](screenshots/half_score.png)
+![Results Screen](screenshots/bad_score.png)
 
-## Como Jogar 🎮
+## How to Play🎮
 
-1. Abra o aplicativo.
-2. Insira seu nome na tela inicial.
-3. Clique no botão para iniciar o Quiz.
-4. Responda às perguntas e veja seu resultado no final!
+1. Open the app.
+2. Enter your name on the welcome screen.
+3. Click the button to start the Quiz.
+4. Answer the questions and see your final score!
 
-## Funcionalidades 🚀
+## Features 🚀
 
-- Página inicial para inserir o nome do jogador.
-- Perguntas de Quiz com opções de resposta.
-- Página de resultado exibindo a pontuação final.
+- Welcome screen to enter the player's name.
+- Quiz questions with answer options.
+- Results page displaying the final score.
 
-## Tecnologias Utilizadas 💻
+## Technologies Used 💻
 
 - Flutter
 - Dart
 
-## Como Executar o Projeto 🛠️
+## How to Run the Project 🛠️
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    
-2.  Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 
 ```bash
   cd nome-do-repositorio
 ```
-3. Execute o aplicativo:
+3. Run the app:
 
 ```bash
   flutter run
 ```
 
-## Licença 📄
-Este projeto é licenciado sob a Licença MIT.
+## License 📄
+This project is licensed under the MIT License.
 
-## Feito com ❤️ por Ruan Cláudio Damasceno Souza
+## Note: Screens are initially in Portuguese (pt-br).
+Made with ❤️ by Ruan Cláudio Damasceno Souza
