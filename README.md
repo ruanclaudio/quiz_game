@@ -51,7 +51,7 @@ Um aplicativo simples de Quiz desenvolvido em Flutter para testar seus conhecime
   flutter run
 ```
 
-Licença 📄
+## Licença 📄
 Este projeto é licenciado sob a Licença MIT.
 
-Feito com ❤️ por Ruan Cláudio Damasceno Souza
+## Feito com ❤️ por Ruan Cláudio Damasceno Souza
